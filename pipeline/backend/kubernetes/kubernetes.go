@@ -58,3 +58,7 @@ func (e *engine) Destroy(*backend.Config) error {
 	// DELETE /api/v1/namespaces/{name}
 	return nil
 }
+
+func (e *engine) Close() error {
+	return nil
+}
